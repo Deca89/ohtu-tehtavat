@@ -13,7 +13,7 @@ dependencies {
     implementation 'com.google.guava:guava:29.0-jre'
 }
 
-mainClassName = 'ohtu.Main'
+mainClassName = 'paaohjelma.Main'
 
 run{
     standardInput = System.in
