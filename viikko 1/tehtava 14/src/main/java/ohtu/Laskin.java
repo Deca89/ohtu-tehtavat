@@ -11,14 +11,14 @@ public class Laskin {
     }
     
     public void suorita(){
-        while( true ) {
+        int luku1 = 1;
+        int luku2 = 2;
+        while( (luku2!=-9999) && (luku1!=-9999) ) {
             System.out.println("luku 1: ");
-            int luku1 = lukija.nextInt();
-            if ( luku1==-9999  ) return;
+            luku1 = lukija.nextInt();
             
             System.out.println("luku 2: ");
-            int luku2 = lukija.nextInt();
-            if ( luku2==-9999  ) return;
+            luku2 = lukija.nextInt();
             
             int vastaus = laskeSumma(luku1, luku2);
             System.out.println("summa: "+ vastaus);
